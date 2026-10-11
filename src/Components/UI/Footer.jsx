@@ -132,7 +132,7 @@ export const Footer = () => {
 
               <div className="flex gap-3">
                 <FaPhoneAlt className="text-orange-400 mt-1" />
-                <p>+91 98765 43210</p>
+                <p>+91 98765 xxxxx</p>
               </div>
 
               <div className="flex gap-3">

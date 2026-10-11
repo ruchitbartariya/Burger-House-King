@@ -1,4 +1,4 @@
-# ☕ Smart QR Cafe Management System
+# Smart QR Cafe Management System
 
 A modern **QR Code Based Cafe Management System** built using the **MERN Stack**. Customers can scan a QR code placed on their table to access the digital menu, browse food items, add them to the cart, and place orders without waiting for a waiter.
 

@@ -9,7 +9,8 @@ import {Contact} from "./Pages/Contact";
 import {Dashboard} from "./Pages/Dashboard";
 import {Offers} from "./Pages/Offers";
 import {Cart} from "./Components/UI/Cart";
-import {QrCode} from "./Pages/QrCode"
+import {QrCode} from "./Pages/QrCode";
+import { FoodManagement } from "./Pages/FoodManagement";
 import Login from "./Pages/Login";
 import Register from "./Pages/Register";
 import ProtectedRoute from "./Components/ProtectedRoute";
@@ -66,6 +67,14 @@ const router = createBrowserRouter([
       {
         path: "/dashboard",
         element: <Dashboard />,
+      },
+      {
+        path: "/admin/foods",
+        element: (
+          <ProtectedRoute>
+            <FoodManagement />
+          </ProtectedRoute>
+        ),
       },
     ],
   },
